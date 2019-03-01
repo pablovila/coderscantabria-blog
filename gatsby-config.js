@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter WordPress Community`,
-    description: `Kick off a great Gatsby blog with this starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `CodersCantabria`,
+    description: `Comunidad de desarrolladores de Cantabria`,
     author: `@pablovilafer`
   },
   plugins: [
@@ -23,7 +23,7 @@ module.exports = {
         //Default options are for WP sites hosted on wordpress.com
         //For sites self hosted and other options check:
         //https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-source-wordpress
-        baseUrl: "gatsbystartercommunity.wordpress.com",
+        baseUrl: "coderscantabria.com",
         protocol: "https",
         hostingWPCOM: true,
         useACF: false,
